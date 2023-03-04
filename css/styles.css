@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #50465b;
+    width: 100%;
+    height: 600PX;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.titull {
+    color: #ffffff;
+}
+
+.subti {
+    color: #4f3c64;
+}
+
+.subtiti {
+    color: #ffffff;
+}
+
+footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #ffffff;
+    border-bottom: 3px solid rgb(218, 218, 218);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: #fff;
+
+}
+
+.titulo-final {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+
+}
+
+
+nav ul {
+    list-style: none;
+
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+header nav ul li a:hover {
+    background: #75ACEC;
+    text-decoration: underline;
+    color: rgb(68, 22, 80);
+}
+
+
+
+.main .articulos {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+.main .articulos article {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+/* border-box, el ancho y el alto se calculan teniendo en cuenta el contenido y también el border y el padding. Es decir, el border y el padding están incluidos en el ancho y alto.*/
+aside {
+    width: 30%;
+    background: #ff8000;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.port>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.port {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+}
